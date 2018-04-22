@@ -1,0 +1,67 @@
+
+
+#ball {
+    block-size: 200px;
+    background-color: #A43A22;
+    border: 4px solid #1D1311;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15%;
+    border-radius: 200px;
+    position: relative;
+    overflow: hidden;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes bounce {
+    0%{margin-top: 15%; transform: scale(1,1);animation-timing-function: ease-in;}
+    40%{transform: scale(1,1); animation-timing-function: ease-out}
+    50%{margin-top: 30%;transform: scale(1, 0.9);animation-timing-function: ease-out}
+    100%{margin-top: 15%;transform: scale(1,1);animation-timing-function: ease-out}
+  
+}
+
+#circle1{
+    block-size: 200px;
+    border: 4px solid #1D1311;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 60%;
+}
+
+#line {
+    block-size: 400px;
+    border: 4px solid #1D1311;
+    width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 50%;
+}
+#circle3 {
+    block-size: 200px;
+    border: 4px solid #1D1311;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -65%;
+}
+#circle4 {
+    block-size: 300px;
+    border: 4px solid #1D1311;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 300px;
+    position: absolute;
+    margin-top: -90%;
+    margin-left: -20%;
+    
+}
